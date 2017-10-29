@@ -1,0 +1,5 @@
+x1_coord = int(input(" Enter coordinates of current location (x) from 1 to 8: "))
+y1_coord = int(input(" Enter coordinates of current location (y) from 1 to 8: "))
+x2_coord = int(input(" Enter coordinates of target location (x) from 1 to 8: "))
+y2_coord = int(input(" Enter coordinates of target location (y) from 1 to 8: "))
+input(" YES") if x1_coord == x2_coord or y1_coord == y2_coord else input(" NO")
